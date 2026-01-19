@@ -24,6 +24,8 @@ ExperTrack is a full‑stack expense tracking application that combines **FastAP
 
 ### Expense Dashboard
 ![Add Transaction](https://github.com/anumkr/ml_assisted_expense_categorizer/blob/main/categorizer1.png?raw=true)
+
+
 ![Add Transaction](https://github.com/anumkr/ml_assisted_expense_categorizer/blob/main/categorizer2.png?raw=true)
 
 ---

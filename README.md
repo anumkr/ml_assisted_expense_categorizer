@@ -48,7 +48,9 @@ ExperTrack is a full‑stack expense tracking application that combines **FastAP
 ## 🔧 API Endpoints
 - `POST /add_transaction` → Add a new transaction (auto-categorized)  
 - `GET /dashboard_data` → Retrieve dashboard metrics and charts  
-- `POST /reset` → Reset all stored transactions  
+- `POST /reset` → Reset all stored transactions
+
+---
 
 ## 📌 Project Scope 
 The scope of **ExperTrack** is to provide a lightweight yet intelligent expense tracking solution that demonstrates: 

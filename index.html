@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Expense Tracker</title>
+    <style>
+        body {
+            background-color: rgb(202, 227, 248);
+            margin: 0;
+            padding: 0;
+        }
+        .img {
+            height: 50px;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        .name {
+            margin-top: -42px;
+            margin-left: 80px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: bolder;
+            font-size: 1.25rem;
+        }
+        .headdiv {
+            text-align: center;
+            width: 225px;
+            border-radius: 50px;
+            padding: 10px;
+            background: linear-gradient(to top,#aee1fb);
+            font-family: "Poppins", sans-serif;
+            font-weight: 500;
+            margin: 100px auto 0 auto;
+            color: rgb(3, 35, 218);
+            border: solid slateblue;
+        }
+        .title1, .title2 {
+            font-family: "Inter", sans-serif;
+            font-weight: bolder;
+            font-size: 3rem;
+            text-align: center;
+            line-height: 1; 
+        }
+        .title1 {
+            margin-top: 30px;
+            margin-bottom: 0; 
+        }
+        .title2 {
+            color: #27a7e7;
+            margin-top: 0; 
+        }
+        .body {
+            text-align: center;
+            font-family: "Inter", sans-serif;
+            margin-top: 10px;
+            padding: 0 20px;
+        }
+        .btn {
+            display: block;
+            margin: 50px auto;
+            width: 150px;
+            padding: 15px;
+            font-weight: bolder;
+            border: solid slateblue;
+            border-radius: 5px;
+            background: linear-gradient(to top, #cceeff, #66ccff);
+            text-decoration: none;
+            text-align: center;
+            font-family: "Poppins", sans-serif;
+            font-weight: 500;
+        }
+
+        @media screen and (max-width: 600px) {
+            .title1, .title2 {
+                font-size: 2rem;
+            }
+            .headdiv {
+                width: 80%;
+                font-size: 0.9rem;
+            }
+            .btn {
+                width: 80%;
+                font-size: 1rem;
+                border: solid slateblue;
+                text-decoration: none;
+                text-align: center;
+                font-family: "Poppins", sans-serif;
+                font-weight: 500;
+            }
+            .name {
+                font-size: 1rem;
+                margin-left: 70px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img class="img" src="expenselogo.png">
+    <p class="name">ExperTrack</p>
+    <div class="headdiv">ML Assisted Expense Tracking</div>
+    <div class="title1">Track your spending,</div>
+    <div class="title2">see it come alive.</div>
+    <div class="body">Simply enter your day-to-day transcations and watch as our ML model automatically<br> categorizes them which helps you understand where you spend your money.</div>
+    <a href="dashboard.html" class="btn">Start Categorizing</a>
+
+</body>
+</html>
+
